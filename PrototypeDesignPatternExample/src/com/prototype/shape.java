@@ -19,6 +19,7 @@ public class shape implements Prototype {
 	
 	public Prototype clone()
 	{
-		return new shape("circle");
+		return new shape(type);
 	}
+	
 }
